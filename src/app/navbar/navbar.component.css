@@ -1,0 +1,26 @@
+.my-navbar{
+    padding: 5px;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.icon-color{
+    color: white;
+}
+
+a{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+
