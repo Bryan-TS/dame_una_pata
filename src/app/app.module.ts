@@ -10,7 +10,6 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { DummyModule } from './dummy/dummy.module';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { DummyModule } from './dummy/dummy.module';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule,
-    DummyModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -30,12 +30,6 @@ export class HomeComponent implements OnInit {
   }
 
   changePhoto(){
-    // this.pps.getDogPhoto().subscribe(result => {
-    //   this.image = result.message;      
-    // });
-
-
-    
   }
 
 }
